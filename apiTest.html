@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="us">
+    <head>
+    </head>
+    <body>
+        <form method="get" action="https://api.goperigon.com/v1/all"></form>
+
+        <script>
+            const axios = require('axios');
+
+axios.get(url)
+  .then((response) => {
+    console.log(response);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+
+        </script>
+
+
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <div>post title: <span id="spanId"></span></div>
+    <script>
+        const apikey = "3d59780c-3d95-4c12-9b1b-84de81af7151"
+      async function fillTheTitle() {
+        const post = await fetch('https://api.goperigon.com/v1/all?category=Business&sourceGroup=top100&showReprints=false&apiKey=3d59780c-3d95-4c12-9b1b-84de81af7151').then((res) => res.json());
+        document.getElementById("spanId").innerText = articleID.;
+      }
+      fillTheTitle();
+    </script>
+  </body>
+<script>
+const axios = require('axios');
+const apiKey = "API_KEY"
+const url = `https://api.goperigon.com/v1/headlines?q="Tesla" OR "SpaceX"&from=2022-03-01&to=2022-03-15&apiKey=${apiKey}`
+
+axios.get(url)
+  .then((response) => {
+    console.log(response);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+</script>
+
+  
+</html>
+    
+
+</html>

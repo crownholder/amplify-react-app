@@ -1,0 +1,44 @@
+.box{
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    gap:10px;
+}
+.box2{
+    background-color: rgb(214, 214, 219);
+}
+.box1{
+    color: rgb(30, 30, 81);
+    background-color: rgb(128, 143, 172);
+}
+.box3{
+    background-color: hsl(240, 57%, 34%);
+    align-self: center;
+    cursor: pointer;
+}
+.box4{
+    background-color: hsl(240, 57%, 34%);
+    align-self: center;
+    cursor: pointer;
+}
+.box5{
+    background-color: hsl(240, 57%, 34%);
+    align-self: center;
+    cursor: pointer;
+}
+.box7{
+    background-color: hsl(240, 57%, 34%);
+    align-self: center;
+    cursor: pointer;
+}
+
+other flex container attribute 
+flex: 0 1 auto;
+align-items:flex-end;
+flex-direction: column;

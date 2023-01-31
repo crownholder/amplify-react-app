@@ -1,0 +1,55 @@
+h1{
+    background-color: hsl(0, 81%, 45%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 26px;
+    text-align: left;
+    font-family: 'verdana';
+    color: rgb(255, 255, 255);
+}
+a{
+    padding-left: 10px;
+   
+  
+}
+p{
+    
+    text-align: left;
+    font-size: large;
+
+}
+#submit_button{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    background-color: hsla(0, 12%, 33%, 0.696);
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgb(229, 224, 218);
+    margin: 10px;
+    width: 180px;
+    height: 50px;
+    border-width: 2px;
+
+}
+#p1{
+    background-color: rgb(197, 124, 46);
+    color: white;
+    
+}
+main{
+    background-color: hsl(#84fe89);
+    color: hsl(0, 0%, 0%);
+}
+label{
+    color: rgb(0, 0, 0);
+}
+
+#header2{
+    background-color: red;
+    color: azure;
+
+}
+
+#header1{
+    margin-top: 0px;
+  }

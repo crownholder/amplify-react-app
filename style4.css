@@ -1,0 +1,138 @@
+h1{
+    background-color: hsl(270, 4%, 80%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-family: 'verdana';
+    color: rgb(255, 246, 246);
+}
+a{
+    padding-left: 10px;
+   
+  
+}
+p{
+    
+    text-align: left;
+    font-size: large;
+
+}
+#submit_button{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    background-color: hsla(0, 12%, 33%, 0.696);
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgb(229, 224, 218);
+    margin: 10px;
+    width: 180px;
+    height: 50px;
+    border-width: 2px;
+
+}
+#p1{
+    background-color: rgb(197, 124, 46);
+    color: white;
+    
+}
+main{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 30%, 72%);
+    border-radius: 2px;
+}
+label{
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    margin-top: 10px;
+}
+input{
+    align-items: center;
+    border-radius: 6px;
+
+}
+
+#btn1{
+    background-color: rgb(112, 45, 193);
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    width: 256px;
+    height: 56px;
+    border-radius: 40px;
+    border-style: groove;
+    border-bottom-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#header2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 151, 151);
+
+}
+#header3{
+    color: rgb(0, 0, 0);
+    background-color: rgb(35, 65, 91);
+}
+
+#header1{
+    margin-top: 0px;
+    margin-left: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+  }
+  small{
+    color: rgb(0, 0, 0);
+  }
+span{
+    border-radius: 5px;
+  }
+#vid1{
+    width: 900px;
+    align-items: center;
+    overflow: hidden;
+}
+html{
+    background-color: hsl(0, 0%, 100%);
+}
+input{
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    border-style: groove;
+    border-width: 1px;
+    border-color: rgb(221, 213, 213);
+}
+button{
+    width:260px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    color: white;
+    border-style: groove;
+    border-color: blanchedalmond;
+    cursor: pointer;
+    display: inline-block;
+}
+button:hover {
+    background-color: #1153c4;
+}
+
+.header{
+    background-color: black;
+    color: red;
+}
+#navbar-header{
+    background-color: white;
+}
+#header6{
+    text-align: center;
+}
+#span2{
+    background-color: wheat;
+}
+#policy{
+    width: 15px;
+}
